@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function addNumber($numberOne, $numberTwo)
+    {
+        return $numberOne + $numberTwo;
+    }
 }
